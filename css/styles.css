@@ -1,0 +1,72 @@
+/* hero background image */
+.bgimage {
+    height:100vh;
+    background: linear-gradient(to right, rgba(194, 155, 155, 0),rgba(122, 148, 173, 0.82)), url('../img/job1.jpg');
+    margin-bottom: 50px;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size:cover;
+    position:relative;
+}
+/* text css above hero image*/
+.hero_title {
+    font-size: 4.5rem;
+    color: white;
+}
+.hero_desc {
+    font-size: 2rem;
+    color: white;
+}
+.hero-text {
+    text-align:left;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+    
+    animation: slidedown ease 2s;
+}
+
+@keyframes slidedown{
+    0%{
+        opacity: 0 ;
+        top: 20%;
+
+    }
+   
+
+    100%{
+        opacity: 1 ;
+        top: 50%;
+
+    }
+
+}
+
+.card:hover{
+ 
+    opacity: 0.5;
+}
+
+.imageAboutPage {
+    width: 100%;
+}
+
+/* social media icons styling */
+.social-icons {
+    font-size: 36px;
+    cursor: pointer;
+}
+.fa-facebook:hover,.fa-instagram:hover,.fa-twitter:hover,.fa-linkedin:hover, .fa-twitch:hover {
+    color: #008000;
+}
+.fab {
+    color: #000000;
+}
+/* footer styling */
+#footer {
+    background-color: #808080;
+    text-align: center;
+}
